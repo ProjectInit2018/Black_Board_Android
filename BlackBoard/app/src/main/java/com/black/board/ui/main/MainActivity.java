@@ -14,6 +14,8 @@ public class MainActivity extends BaseActivity<MainPresenter> implements MainCon
     @Override
     protected void initView() {
       mPresenter.getXxData();
+
+      // test 测试提交
     }
 
     @Override
