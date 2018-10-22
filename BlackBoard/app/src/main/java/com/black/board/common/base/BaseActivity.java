@@ -90,7 +90,7 @@ public abstract class BaseActivity<P extends BasePresenter> extends FragmentActi
             LinearLayout  layout= (LinearLayout) decorView.getChildAt(0);
             layout.addView(createStatusBarView(this,Color.parseColor("#00f0f0")),0);*/
         }
-    }
+    } 
     /**
      * 获取状态栏高度
      *
